@@ -1,0 +1,185 @@
+/* ===================================================================
+   VIETNAM PROJECT - ICON ASSET SYSTEM
+   Professional icon management for consistent UI elements
+   =================================================================== */
+
+/* Base Icon Styles */
+.icon {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+/* Icon sizing variants */
+.icon-sm { font-size: 1.2em; }
+.icon-md { font-size: 1.8em; }
+.icon-lg { font-size: 2.5em; }
+.icon-xl { font-size: 3.2em; }
+
+/* ===================================================================
+   NAVIGATION & UI ICONS
+   =================================================================== */
+
+.icon-vietnam-flag::before {
+    content: '🇻🇳';
+}
+
+.icon-home::before {
+    content: '🏠';
+}
+
+.icon-info::before {
+    content: 'ℹ️';
+}
+
+/* ===================================================================
+   FEATURE CARD ICONS
+   =================================================================== */
+
+.icon-welcome::before {
+    content: '☀️';
+}
+
+.icon-culture::before {
+    content: '🏛️';
+}
+
+.icon-food::before {
+    content: '🍜';
+}
+
+.icon-adventure::before {
+    content: '🏞️';
+}
+
+/* ===================================================================
+   VIETNAM SPECIFIC ICONS
+   =================================================================== */
+
+.icon-capitol::before {
+    content: '🏛️';
+}
+
+.icon-city::before {
+    content: '🌆';
+}
+
+.icon-pho::before {
+    content: '🍜';
+}
+
+.icon-unesco::before {
+    content: '🏞️';
+}
+
+.icon-coffee::before {
+    content: '☕';
+}
+
+/* ===================================================================
+   STATUS & FEEDBACK ICONS
+   =================================================================== */
+
+.icon-success::before {
+    content: '✅';
+}
+
+.icon-error::before {
+    content: '❌';
+}
+
+.icon-warning::before {
+    content: '⚠️';
+}
+
+.icon-info-circle::before {
+    content: 'ℹ️';
+}
+
+.icon-celebration::before {
+    content: '🎉';
+}
+
+.icon-email::before {
+    content: '📧';
+}
+
+.icon-clock::before {
+    content: '⏰';
+}
+
+.icon-database::before {
+    content: '💾';
+}
+
+.icon-debug::before {
+    content: '🐛';
+}
+
+.icon-rocket::before {
+    content: '🚀';
+}
+
+/* ===================================================================
+   FORM & ACTION ICONS
+   =================================================================== */
+
+.icon-user::before {
+    content: '👤';
+}
+
+.icon-envelope::before {
+    content: '✉️';
+}
+
+.icon-submit::before {
+    content: '➤';
+}
+
+/* ===================================================================
+   SPECIAL UTILITY CLASSES
+   =================================================================== */
+
+.icon-center {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.icon-inline {
+    display: inline;
+    margin-right: 5px;
+}
+
+.icon-float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.icon-float-right {
+    float: right;
+    margin-left: 10px;
+}
+
+/* Accessibility */
+.icon[aria-hidden="true"] {
+    speak: none;
+}
+
+/* ===================================================================
+   RESPONSIVE ICON SCALING
+   =================================================================== */
+
+@media (max-width: 768px) {
+    .icon-xl { font-size: 2.5em; }
+    .icon-lg { font-size: 2em; }
+    .icon-md { font-size: 1.5em; }
+}
+
+@media (max-width: 480px) {
+    .icon-xl { font-size: 2em; }
+    .icon-lg { font-size: 1.8em; }
+    .icon-md { font-size: 1.3em; }
+}
